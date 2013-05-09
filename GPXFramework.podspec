@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.0'
   s.source_files = 'GPX/**/*.{h,m}'
+  s.header_dir = 'GPX'
   s.requires_arc = true
 end
